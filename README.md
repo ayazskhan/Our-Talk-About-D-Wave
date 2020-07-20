@@ -6,4 +6,4 @@ July 21 2020
 I am not affiliated with D-Wave Systems Inc.
 all comments and material reflect my own opinions
 
-Code presented here may have components copied from D-Wave samples and from other contributors (Marauane Salih, Clark Alexander)
+Code presented here may have components copied from D-Wave samples and from other contributors (Marouane Salih, Clark Alexander)
