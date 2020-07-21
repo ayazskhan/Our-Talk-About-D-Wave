@@ -1,0 +1,7 @@
+1962 Brian David Josephson produces the mathematics of the Josephson effect.
+
+1999 the D-Wave company is created based on the quantum annealing theory developed by Tadashi Kadowaki, Hidetoshi Nishimori at Tokyo Institute of Technology. 
+
+Hidetoshi Nishimori said “When I proposed the concept of quantum annealing, I never expected that someone will manufacture such a machine, It’s a crazy idea, but they did it and they sold it”. 
+
+Actually D-Wave sold their first system for 10M to Lockheed Martin in 2010. 
