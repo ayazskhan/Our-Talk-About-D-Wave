@@ -63,8 +63,6 @@ print(QDwave)
 chainstrength = 1
 numruns = 10
 
-
-
 sampler = EmbeddingComposite(DWaveSampler())
 
 

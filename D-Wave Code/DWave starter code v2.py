@@ -64,7 +64,22 @@ sampler = EmbeddingComposite(DWaveSampler())
 
 
 response = sampler.sample_qubo(QDwave, chain_strength=chainstrength, num_reads=numruns)
-print(response)
+#print(response)
+
+# print qubits with value 1
+best=0
+for sample, energy, n_occurences, chain_break_freq in response.data():
+    sample_list=[]
+    for a in range(dim):
+        #sample_str.append(str(sample['a'+str(a)]))
+        if sample['a'+str(a)]==1:
+            sample_list.append(a)
+    if best==0:
+        best_DWave_val='best D-Wave:'+str(sample_list)+' energy:'+str(energy)+' occurences:'+str(n_occurences)
+        best=1
+    print(sample_list, energy, n_occurences)
+print(best_DWave_val)   
+
 
 dwave.inspector.show(QDwave,response)
 
